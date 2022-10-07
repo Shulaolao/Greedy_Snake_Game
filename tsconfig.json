@@ -1,0 +1,33 @@
+{
+  "include": [
+    "./src/**/*"
+  ],
+//  "exclude": []
+  "compilerOptions": {
+    "target": "ES6",
+    /* 模块导入导出语法 */
+//    "module": "system",
+    /* 指定库 */
+//    "lib": ["ES6"]
+    "outDir": "./dist",
+//    "outFile": "./dist/app.js",
+    /* 是否编译 js 文件 */
+//    "allowJs": true,
+    /* 检查 js 文件语法 */
+//    "checkJs": true,
+    /* 移除注释 */
+//    "removeComments": true,
+    /* 生成编译后的文件 */
+//    "noEmit": false,
+    /* 若有错误则不生成的编译文件 */
+//    "noEmitOnError": true,
+    "strict": true,
+//    "alwaysStrict": true,
+    /* 是否允许出现不明类型 any */
+//    "noImplicitAny": true,
+    /* 是否允许出现不明类型的 this */
+//    "noImplicitThis": true,
+    /* 是否允许出现空值 */
+//    "strictNullChecks": false
+  }
+}
